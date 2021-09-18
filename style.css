@@ -1,0 +1,323 @@
+
+ /* ****Mon corps *******/
+ .content-page
+{
+	background-color: #275101;
+}
+.logo-image
+{
+	display: flex;
+	border-radius: 10px;
+	border-width: 1px;
+	/*margin-left: 5%;*/
+	position: relative;
+	background-color: #669128;
+	margin-top: 3px;
+	width: 7em;
+	height: 50px;
+}
+.div-bloc-content
+{
+	background-color: #ffffff;
+}
+.menu-nav-first
+{
+	display: flex;
+	position: relative; 
+}
+.menu-nav-co
+{
+	background-color: #ffffff;
+	width: 100%;
+}
+.list-menu-bop
+{
+	margin-right:1em;
+}
+.div-bloc-content-uh
+{
+	display: flex;
+	border-radius: 15px;
+	border-width: 1px;
+	position: relative;
+	background-color: #f5f5f5;
+	margin-top: 9px;
+	height: 40px;
+}
+.input-search-hy
+{
+	width: 80%;
+	height: 30px;
+	margin-top: 2px;
+	border-width: 0;
+	padding-left: 1px;
+	background-color: #f5f5f5;
+	border-radius: 15px;
+}
+.icon-search-bx
+{
+	display: flex;
+	border-radius: 15px;
+	border-width: 1px;
+	margin-left: 1%;
+	position: relative;
+	background-color: transparent;
+	margin-top: 3px;
+	height: 30px;
+}
+.list-menu-bhf
+{
+	margin-right:5em;
+}
+
+.header-title
+{
+	text-transform: uppercase; 
+	font-variant: 15px;
+	background-color: #275101;
+	color: white;
+}
+.div-bloc-content-icon-de
+{
+	display: flex;
+	border-radius: 15px;
+	border-width: 1px;
+	margin-left: 1%;
+	position: relative;
+	background-color: #ffffff;
+	margin-top: 1px;
+	height: 40px;
+	text-decoration: underline;
+}
+.span-redtp
+{
+	margin-left: 5px;
+	margin-top: 13px;
+}
+.co-intent
+{
+	margin-top: 10px;
+	color: black;
+}
+.lisrt-btn
+{
+	margin-right:2em;
+}
+.lisrt-btn-link
+{
+	text-decoration: none;
+	display: flex;
+	border-radius: 15px;
+	border-width: 1px;
+	position: relative;
+	margin-top: 1em;
+	background-color: #669128;
+	height: 40px;
+	width: 90px;
+	align-items: center;
+	justify-content: center;
+}
+div>p::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu-nav-cot
+{
+	position: relative;
+	display: flex;
+	margin-top: 2em;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.menu-nav-cote
+{
+	text-transform: uppercase;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+.qzt
+{
+	margin-right:2em;
+}
+.rte
+{
+	text-decoration: none;
+	color: #669128;
+}
+.rtefc
+{
+	text-decoration: none;
+	display: flex;
+	border-radius: 15px;
+	border-width: 1px;
+	margin-left: 1%;
+	position: relative;
+	background-color: #669128;
+	height: 20px;
+	width: 40px;
+	align-items: center;
+	justify-content: center;
+}
+.rget
+{
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	margin-left: 25px;
+	background-color: #669128;
+	border-radius: 15px;
+	width: 20px;
+	height: 15px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.zea
+{
+	width: 101.5%;
+}
+.zeat
+{
+	width: 101.5%;
+	height: 95%;
+	right: 10px;
+	display: flex;
+	position: relative;
+}
+.zeot
+{
+	position: relative;
+	display: flex;
+	bottom:2em;
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+}
+.zeato
+{
+	width:15%;
+	height: 80%;
+	right: -0.1%;
+	display: flex;
+	position: relative;
+	top: -7em;
+	padding-right: 10px;
+}
+.zeatode
+{
+	position: relative;
+	display: flex;
+	bottom: 10em;
+	padding-left: 10em;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+}
+.qzta
+{
+	border-width: 5px;
+	width: 100%;
+}
+.boty
+{
+	position: relative;
+	border-right-color: red;
+	border: 2px;
+	color: green;
+}
+.boty>span::before{
+	content: "";
+	display: block;
+	clear: both;
+}
+.botif
+{
+	border-right-color: red;
+	border-width: 2px;
+	font-size: 33px;
+	color: green;
+}
+.lodd
+{
+	margin-bottom: 25px;
+	margin-left: 10px;
+}
+.image-size-bof
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.bg-green
+{
+	background-color: #275101;
+	align-items: center;
+	justify-content: center;
+}
+.lisrt-btn-links
+{
+	text-decoration: none;
+	display: flex;
+	border-radius: 15px;
+	border-width: 1px;
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #669128;
+	color: #ffffff;
+	height: 40px;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+}
+.moiu
+{
+	box-shadow: 2px 3px 5px 2px #e4e4e4;
+}
+.poutr
+{
+	text-decoration: none;
+	border-radius: 50px;
+	border-width: 1px;
+	margin-top: 1em;
+	background-color: #669128;
+	height: 100px;
+	width: 100px;
+}
+.ferd
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.ferda
+{
+	margin-bottom: 60px;
+}
+.fezasz
+{
+	width:70%;
+	box-shadow: 3px 2px 3px 2px #e4e4e4;
+	padding-bottom: 2%;
+}
+.terdeaz
+{
+	text-decoration: none;
+	border-width: 1px;
+	margin-top: 1em;
+	background-position: center;
+	background-color: #669128;
+	height: 50%;
+	width: 100%;
+}
+.terdeazo
+{
+	text-decoration: none;
+	border-width: 1px;
+	margin-top: 0.5em;
+	background-position: center;
+	background-color: #669128;
+	height: 215px;
+	width: 100%;
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+	<script src="./bootstrap-5.0.2-dist/js/jquery.js"></script>
+	<script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- pour IE : -->
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <!-- pour les mobiles : --> 
+ 	<meta name="viewport" content="width=device-width, initialscale=1">
+
+		 	<!-- pour IE 8 -->
+		 <!--[if lt IE 9]>
+		 <script 
+		src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></s
+		cript>
+		 <script 
+		src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></scrip
+		t>
+		 <![endif]-->  
+</head>
+<body>
+	<script type="text/javascript">
+		function startLIveUpdate(){
+			const textViewCount=document.getElementById('viewCount');
+			setInterval(function(){
+				fetch('./pages/viewcount.php').then(function (response) {
+					return response.json();
+				}).then(function (data) {
+					textViewCount.textContent=dataviewCount;
+				}).catch(function (error) {
+					console.log(error);
+				})
+			},2000);
+		}
+		document.addEventListener('DOMContentLoaded',function() {
+			startLIveUpdate();
+		})
+	</script>
+		<div class="container-fluid col-md-12 col-md-offse-3 mb-5 ml-2 content-page" >
+			<div class="row">
+					<h5 class="text-center mt-2 header-title">pour une lutte raisonnée contre les nuisibles et parasites</h5>
+				<div class="col-md-12 clearfix visible-sm-block div-bloc-content">
+					<div class="container text-center">
+						<div class="navbar-expand navbar-collapse menu-nav-first">
+						  <ul class="nav navbar-nav menu-nav-co">
+							  	<li class="col-md-4">
+							  		<img src="images/aurouze.jpg" class="col-md-2 logo-image">
+							  	</li>
+							  	<li class="col-md-3 list-menu-bop">
+							  		<div class="div-bloc-content-uh">
+										<input 
+											class="col-md-2 input-search-hy"
+											type="search" 
+											name="search"
+											placeholder="Recherchez dans la boutique..."
+											required="required" 
+											minlength="4"
+											autocomplete="text" 
+											>
+										<a href="" class="col-md-1 icon-search-bx"><img src="./bootstrap-icons/search.svg"></a>
+									</div>
+							  	</li>
+							  	<li class="col-xs-4 col-sm-2 col-md-2 list-menu-bhf">
+							  		<div class="div-bloc-content-icon-de">
+										<span class="span-redtp">
+											<img src="images/phone.jpg" style="width: 25px;">
+											<code class="col-md-1 col-xs-4 col-sm-3 co-intent">01 40 41 16 20</code>
+										</span>
+									</div>
+							  	</li>
+							  	<li class="col-xs-4 col-sm-3 col-md-1 lisrt-btn">
+							  		<a href="#" class="lisrt-btn-link"><img src="images/user-green.png" style="width: 25px;">Sign in</a></li>
+						  </ul>
+					</div>
+						
+					</div>
+					<hr>
+					
+					<div class="navbar-expand navbar-collapse menu-nav-cot">
+						  <ul class="nav navbar-nav menu-nav-cote" >
+							  	<li class="dropdown qzt">
+							  		<a href="" class="dropdown-toggle rte" data-toggle="dropdown">services<span class="caret"></a>
+							  	</li>
+							  	<li class="dropdown qzt"><a href="" class="dropdown-toggle rte" data-toggle="dropdown">nos produits<span class="caret"></span></a></li>
+							  	<li class="qzt"><a href="" class="rte">produits pro</a></li>
+							  	<li class="qzt"><a href="" class="rte">marques</a></li>
+							  	<li class="qzt"><a href="" class="rte">faq</a></li>
+							  	<li class="qzt"><a href="" class="rte">qui sommes nous ?</a></li>
+							  	<li class="qzt"><a href="" class="rtefc"><img src="./bootstrap-icons/cart3.svg"></a><span class="rget" id="viewCount">0</span></li>
+						  </ul>
+					</div>
+				</div>
+				<div class="zea">
+ 					<img src="images/rat1.jpg" alt="monimage1" class="zeat">
+ 					<p class="zeot">maison aurouze</p>
+ 					<div class="">
+ 						<img src="images/maison.jpg" alt="monimage1" class="zeato">
+ 						<p class="zeatode">"spécialiste de la deratisation et de la lutte antinuisibles a paris depuis 1872"</p>
+ 					</div>
+				</div>
+			</div>
+						
+		</div>
+
+
+
+
+		<div class="container">
+			<div class="text-center">
+				<div class="qzta">
+					<p class="boty">Une gamme de produits éfficaces pour votre bien etre</p>
+				</div>
+				<div class="botif">
+					<p>Découvrez nos services et prestations</p>
+				</div>
+				<div class="row lodd">
+					<div class="col-sm-3 moiu">
+						<img src="./bootstrap-icons/layers.svg" class="poutr">
+						<p class="ferd">Dératisation</p>
+						<p>Débarassez vous une bonne fois pour toute des souris, mulots, rats, loirs, fouines, taupes, ragondins, compagnols</p>
+						<a href="">En savoir plus</a>
+					</div>
+					<div class="col-sm-3  moiu">
+						<img src="./bootstrap-icons/layers.svg" class="poutr" >
+						<p class="ferd">désinsectisation</p>
+						<p>Assurer une protection durable contre les blattes, cafards, guèpes, frelons, puces, araignées, scorpions.. </p>
+						<a href="">En savoir plus</a>
+					</div>
+					<div class="col-sm-3 moiu">
+						<img src="./bootstrap-icons/layers.svg" class="poutr">
+						<p class="ferd">dépigeonnisation</p>
+						<p class="ferda">Débarassez-vous des pigeons, autres volatiles..</p>
+						<a href="#">En savoir plus</a>
+					</div>
+					<div class="col-sm-3 moiu">
+						<img src="./bootstrap-icons/layers.svg" class="poutr">
+						<p class="ferd">désinfection</p>
+						<p>Avec nos produits, dites au revoir aux odeurs acariens, virus, rubérole, champignons, mycos, protozoaires.</p>
+						<a href="">En savoir plus</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="text-center">
+				<div class="qzta">
+					<p class="boty">Des partenaires marques reconnues et appréciées</p>
+				</div>
+				<div class="botif">
+					<p>Consultez vos marques préférées</p>
+				</div>
+				<div class="row lodd">
+					<div class="col-sm-12">
+						<img src="images/marques.jpg">
+						
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+
+
+
+
+		<div class="container-fluid">
+			<div class="text-center">
+				<div class="qzta">
+					<p class="boty">Quelques produits pour une lutte efficace</p>
+				</div>
+				<div class="botif">
+					<p >Vous ne pouvez pas vous rendre en magasin ?<br> Achetez directement en ligne</p>
+				</div>
+				<div class="row lodd">
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/1.jpg" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Tapettes à  Rat Bois</p>
+							<p>2,50 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/2.jpg" alt="2" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Rapadof Anti Foumie et Martre</p>
+							<p>2,50 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/3.jpg" alt="3" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Piège à glu Rat et Souris</p>
+							<p>2,50 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+					<div class="fezasz">
+							<img src="images/4.jpg" alt="4" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Tapettes à  Rat Bois</p>
+							<p>2,50 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/5.jpg" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Tapettes à  Rat Bois</p>
+							<p>2,50 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/6.jpg" class="terdeazo">
+							<p style="margin-top: 1em;color: #669128;">Anti Souris Moussa Saop</p>
+							<p>19,50 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/7.jpg" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Utilisateurs Pile et  Secteur</p>
+							<p>27,00 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+
+						</div>
+						
+					</div>
+					<div class="col-sm-3">
+						<div class="fezasz">
+							<img src="images/8.jpg" class="terdeaz">
+							<p style="margin-top: 1em;color: #669128;">Piège à  Ragorrdin</p>
+							<p>110,00 €</p>
+							<a href="#" class="lisrt-btn-links">Ajouter au  panier</a>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+
+
+
+		<div class="container-fluid row bg-green" style="margin-top: 5%;">
+			<div class="col-sm-4">
+						<img src="images/aurouze.jpg"  style="border-width: 1px;margin-top: 1em;background-color: #ffffff;height: 50px;width: 200px;"> <br>
+						<p style="color: white;">Certaines, partenaires en verra en ligne de</p>
+						<p>Débarassez vous une bonne fois pour toute des souris, mulots, rats, loirs, fouines, taupes, ragondins, compagnols</p>						
+			</div>
+			<div class="col-sm-4">
+						<p style="color: white;">Certaines, partenaires en verra en ligne de</p>
+						<p style="color: white;">Débarassez vous une bonne fois pour toute des souris, mulots, rats, loirs, fouines, taupes, ragondins, compagnols</p>
+						
+			</div>
+			<div class="col-sm-4">
+						<p style="color: white;">Social média</p>
+						<img src="images/instagram.png" style="margin-left: 10px;width: 25px;"><img src="./bootstrap-icons/youtube.svg" style="margin: 10px;"><img src="images/facebook.png" style="margin: 10px;width: 25px;"> <br>
+												
+			</div>
+			<hr style="color: white;">
+			<div class="container-fluid text-center">
+						<p style="color: white;"> <code style="text-transform: uppercase;color: white;">aurouze</code>-8 rue des balles, 76801 Paris, tous droits réservés</p>	
+			</div>
+			
+		</div>		
+</body>
+</html>
